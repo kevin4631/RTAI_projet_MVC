@@ -7,3 +7,4 @@ s'occupe de la partie admin
 ## SPRING -> ge-etudiants
 s'occupe de la partie etudiant
 
+SEDDAK - ROCHETAIGN - ABBACI 
