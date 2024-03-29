@@ -1,0 +1,33 @@
+table {
+  border-collapse: collapse;
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+th {
+  background-color: #FACE53;
+  color: #333;
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ddddddaf;
+  text-align: left;
+  padding: 12px;
+}
+
+tbody{
+  background-color: rgb(253, 239, 219);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(252, 229, 196);
+}
+
+tbody tr:hover {
+  background-color: #FACE53;
+  cursor: pointer;
+}

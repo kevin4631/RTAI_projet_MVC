@@ -1,0 +1,77 @@
+.icon{
+    cursor: pointer;
+}
+
+#boutonPopup {
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+#boutonPopup:hover::after {
+    content: "Ajouter";
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-100%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+#Reinitialisation {
+    position: relative;
+    display: inline-block;
+}
+
+#Reinitialisation:hover::after {
+    content: "Enlever filtre";
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+#Modification {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#Modification:hover::after {
+    content: "Modifier";
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+#Suppression {
+    position: relative;
+    display: inline-block;
+}
+
+#Suppression:hover::after {
+    content: "Supprimer";
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translateX(-100%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
